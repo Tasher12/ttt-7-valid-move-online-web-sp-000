@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 
-def valid_move?.between(0,8)
-  position_taken?
+def valid_move?
+  if position_taken?.between?(0,8)
 end
 
 
